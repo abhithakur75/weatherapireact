@@ -1,0 +1,73 @@
+.box {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 250px;
+    height: 327px;
+    text-align: center;
+    margin: 30px;
+    background: #85b4e0;
+    display: inline-block;
+    position: relative;
+    border-radius: 10px;
+}
+
+.input-data {
+    margin: 35px 0; 
+    text-align: center;
+}
+
+.input-data .btn {
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: #325e88;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.input-data .btn:active {
+    background-color: rgba(107, 107, 134, 0.336);
+}
+
+span {
+    font-size: 20px;
+    font-weight: 600px;
+}
+
+.input-data .input {
+    font-size: 18px;
+    border: none;
+    padding: 10px;
+    width: 80%;
+    border-radius: 10px;
+    background: #ffffff59;
+
+}
+
+.wind {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0;
+    font-size: 18px;
+}
+
+.del-btn {
+    background-color: transparent;
+    font-size: 18px;
+    border: 2px solid black;
+    padding: 5px 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.del-btn:active {  background-color: rgba(0, 0, 0, 0.589);}
+.sync-btn{padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: #325e88;
+    color: white;
+    border: none;
+    cursor: pointer;}
+    .mainarea{background: url();}

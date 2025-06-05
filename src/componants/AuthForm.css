@@ -1,0 +1,16 @@
+*{margin: 0; padding: 0;}
+html{overflow-x: hidden; font-size: 15px;}
+body{ background-color: aqua; font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;}
+.row{display: flex; padding: 0 15px;}
+.login-container{max-width: 100%;}
+.col-6{flex:1 0 50%; max-width: 50%;}
+.text-center{text-align: center;}
+.form-container{ max-width:100%; display: flex; justify-content: center; background: url(../../public/bg.jpg);background-size: cover;object-fit: cover;background-repeat: no-repeat;height: 81vh;overflow-x: hidden;}
+.auth-form{  padding: 20px; border-radius: 10px; width: 100%;  height:auto;} 
+.form-toggle{ display: flex;  }
+.form-toggle .active{ background-color: #8400ff; color: white;}
+.auth-form .google{ width: 60%; border: none;   padding: 10px 10px ; border-radius: 6px; font-size: 16px;  background-color: #8400ff; color: #fff;cursor: pointer;}
+.auth-form  h2 {  font-size: 50px; padding: 0 40px ; color: #5a4d4d; line-height: 80px; font-weight: 600;}
+.auth-form .text-center p{padding: 10px 50px;}
+.img{width: 300px !important; height: 465px; }
+
